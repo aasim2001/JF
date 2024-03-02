@@ -44,7 +44,6 @@ if(array_key_exists($headerName, $headers)) {
     }
     
 } else {
-    $url = 'https://tinypng.com/';
     header("Location: https://www.w3schools.com/php/func_array_push.asp");
     exit();
 }
