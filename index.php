@@ -17,7 +17,7 @@ if(array_key_exists($headerName, $headers)) {
     }
     
 } else {
-    header("Location: https://www.w3schools.com/php/func_array_push.asp");
+    header("Location: http://localhost/other/imageWebView.php?imageId=". $imageId);
     exit();
 }
 
